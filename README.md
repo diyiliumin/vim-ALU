@@ -6,7 +6,7 @@ A complete virtual machine implemented with **pure vim macros**.
 
 - No plugins
 - No vimscript  
-- Just `G`, `yy`, `@0`, `x`, `p`
+- Just `G`, `yy`, `@0`, `f`, `p`
 
 ## Evolution
 
