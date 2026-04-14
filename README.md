@@ -1,39 +1,29 @@
-# vim-vm
+# vim-VM
 
 *"Because `yy@0` can run anything."*
 
-A complete, self-hosting virtual machine implemented with **pure vim macros**.
+A complete virtual machine implemented with **pure vim macros**.
 
 - No plugins
-- No vimscript
+- No vimscript  
 - Just `G`, `yy`, `@0`, `x`, `p`
 
-# usage 
+## Evolution
 
-download txt files，each for a stronger but more powerful vim macro
+| File | What it is |
+|------|-------------|
+| `qj.txt` | Full adder (starting point) |
+| `alu_more.txt` | ALU with 10 operations |
+| `asm_jnc.txt` | Assembler + conditional jump |
+| `asm_cmt_tab.txt` | Assembler + comments + tabs + decimal |
 
-qj.txt for full adder
+## Usage
 
-alu_more.txt for an alu that supports 10 options
+1. Open any file with `vim` (no config needed)
+2. Read the usage inside the file
+3. Follow the instructions
+4. Enjoy vim-vm
 
-asm_jnc.txt for an asm explainer that supports jnc
+## example
 
-asm_tab_cmt.txt for an asm explainer that supports tabs and comments
-
-each file works on it own，just open them with vim without any configs
-
-you will find the usage of each file in themselves
-
-(dont be suprised with the author , ayazumi is also me)
-
-## License
-
-GPL v2
-
-This program is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License
-as published by the Free Software Foundation; version 2
-of the License.
-
-You should have received a copy of the GNU General Public License
-along with this program. If not, see <https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html>.
+examples are set in those txt files so you can just run them to test the program，and change some of the options or code if you are interested
