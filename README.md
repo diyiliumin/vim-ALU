@@ -12,7 +12,7 @@ A complete virtual machine implemented with **pure vim macros**.
 
 | File | What it is |
 |------|-------------|
-| `qj.txt` | Full adder (starting point) |
+| `full_adder.txt` | Full adder (starting point) |
 | `alu_more.txt` | ALU with 10 operations |
 | `asm_jnc.txt` | Assembler+ ALU + conditional jump |
 | `asm_cmt_tab.txt` | Assembler+ ALU + comments + tabs + decimal |
