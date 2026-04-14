@@ -14,8 +14,10 @@ A complete virtual machine implemented with **pure vim macros**.
 |------|-------------|
 | `qj.txt` | Full adder (starting point) |
 | `alu_more.txt` | ALU with 10 operations |
-| `asm_jnc.txt` | Assembler + conditional jump |
-| `asm_cmt_tab.txt` | Assembler + comments + tabs + decimal |
+| `asm_jnc.txt` | Assembler+ ALU + conditional jump |
+| `asm_cmt_tab.txt` | Assembler+ ALU + comments + tabs + decimal |
+
+assembler depend on the ALU
 
 ## Usage
 
@@ -24,6 +26,14 @@ A complete virtual machine implemented with **pure vim macros**.
 3. Follow the instructions
 4. Enjoy vim-vm
 
-## example
+## Example
 
 examples are set in those txt files so you can just run them to test the program，and change some of the options or code if you are interested
+
+## Author
+
+diyiliumin (ayazumi)
+
+## License
+
+GPL v2
