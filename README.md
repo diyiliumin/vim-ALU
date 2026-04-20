@@ -15,7 +15,7 @@ A complete virtual machine implemented with **pure vim macros**.
 | `full_adder.txt` | Full adder (starting point) |
 | `alu_more.txt` | ALU with 10 operations |
 | `asm_jnc.txt` | Assembler+ ALU + conditional jump |
-| `asm_cmt_tab.txt` | Assembler+ ALU + comments + tabs + decimal |
+| `asm_cmt_tab.txt` | Assembler+ ALU + comments + tabs |
 | `asm_varabled.txt` | asm_cmt_tab + jmp + jz + decimal support |
 
 assembler relay on the ALU
