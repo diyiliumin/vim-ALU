@@ -16,7 +16,8 @@ A complete virtual machine implemented with **pure vim macros**.
 | `alu_more.txt` | ALU with 10 operations |
 | `asm_jnc.txt` | Assembler+ ALU + jump no carry |
 | `asm_cmt_tab.txt` | Assembler+ ALU + comments + tabs |
-| `asm_varabled.txt` | asm_cmt_tab + jmp + jump zero + decimal support |
+| `asm_varabled.txt` | + jmp + jump zero + decimal support |
+| `asm_heap.txt` | + stack + pop/push + heap + store/load |
 
 assembler relay on the ALU
 
